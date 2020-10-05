@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>sliceback.py</StartupFile>
+    <StartupFile>GuessingGame.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,9 @@
     <Compile Include="blocks.py" />
     <Compile Include="escape char.py" />
     <Compile Include="formatting.py" />
+    <Compile Include="GuessingGame.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="HelloWorld.py" />
     <Compile Include="interpolation.py" />
     <Compile Include="operators.py" />

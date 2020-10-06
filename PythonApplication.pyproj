@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="blocks.py" />
+    <Compile Include="changeCasing.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="escape char.py" />
     <Compile Include="formatting.py" />
     <Compile Include="GuessingGame.py">

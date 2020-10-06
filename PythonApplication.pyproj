@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>GuessingGame.py</StartupFile>
+    <StartupFile>conditions.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,9 @@
   <ItemGroup>
     <Compile Include="blocks.py" />
     <Compile Include="changeCasing.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="conditions.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="escape char.py" />

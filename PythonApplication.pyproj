@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>conditions.py</StartupFile>
+    <StartupFile>InAndNotIn.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="blocks.py" />
+    <Compile Include="booleanExpressions.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="changeCasing.py">
       <SubType>Code</SubType>
     </Compile>
@@ -34,6 +37,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HelloWorld.py" />
+    <Compile Include="InAndNotIn.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="interpolation.py" />
     <Compile Include="operators.py" />
     <Compile Include="PythonApplication.py" />

@@ -1,6 +1,6 @@
 parrot = "norwegian Blue"
 
-letter = input("please enter a character: ")
+letter = ""# input("please enter a character: ")
 
 if letter in parrot:
     print("{} is in {}".format(letter,parrot))
@@ -10,5 +10,5 @@ else:
 
 activity = input("what to do in today: ")
 
-if "cinema" not in activity:
+if "cinema" not in activity.casefold():
     print("i want to go cinema")

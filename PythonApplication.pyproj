@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>InAndNotIn.py</StartupFile>
+    <StartupFile>IfChallenge.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -37,6 +37,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HelloWorld.py" />
+    <Compile Include="IfChallenge.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="InAndNotIn.py">
       <SubType>Code</SubType>
     </Compile>

@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>IfChallenge.py</StartupFile>
+    <StartupFile>Searching.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -32,6 +32,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="escape char.py" />
+    <Compile Include="ForLoops.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="formatting.py" />
     <Compile Include="GuessingGame.py">
       <SubType>Code</SubType>
@@ -46,11 +49,23 @@
     <Compile Include="interpolation.py" />
     <Compile Include="operators.py" />
     <Compile Include="PythonApplication.py" />
+    <Compile Include="Ranges.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="repfields.py" />
+    <Compile Include="Searching.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sequence operators.py" />
+    <Compile Include="ShoppingList.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="sliceback.py" />
     <Compile Include="strings 2.py" />
     <Compile Include="strings.py" />
+    <Compile Include="timestable.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

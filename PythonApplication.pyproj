@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Searching.py</StartupFile>
+    <StartupFile>HighLow.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="adventure.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="blocks.py" />
     <Compile Include="booleanExpressions.py">
       <SubType>Code</SubType>
@@ -40,6 +43,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="HelloWorld.py" />
+    <Compile Include="HighLow.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="IfChallenge.py">
       <SubType>Code</SubType>
     </Compile>
@@ -64,6 +70,12 @@
     <Compile Include="strings 2.py" />
     <Compile Include="strings.py" />
     <Compile Include="timestable.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WhileLoopfor GuessingGame.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="WhileLoops.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>

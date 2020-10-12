@@ -1,8 +1,14 @@
-answer = 5
-#print("Please Guess number between 1 and 10: ")
-guess = int(input("Please Guess number between 1 and 10: "))
+import random
+
+highest = 10
+answer = random.randint(1,highest)
+print(answer)   #TODO: to remove after tesing
+print("Please Guess number between 1 and {}: ".format(highest))
+guess = int(input())
+
 if guess == answer:
     print("you got it first time")
+
 else:
     if guess < answer:
         print("please guess higher")

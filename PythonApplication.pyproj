@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>HighLow.py</StartupFile>
+    <StartupFile>SectionChallenge.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="aa.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="adventure.py">
       <SubType>Code</SubType>
     </Compile>
@@ -32,6 +35,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="conditions.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="contrived.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="escape char.py" />
@@ -60,6 +66,9 @@
     </Compile>
     <Compile Include="repfields.py" />
     <Compile Include="Searching.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="SectionChallenge.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="sequence operators.py" />

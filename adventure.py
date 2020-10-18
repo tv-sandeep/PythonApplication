@@ -6,4 +6,5 @@ while chosen_exit not in available_exits:
     if chosen_exit.casefold() == "quit":
         print("game over")
         break
-print("arenot you glad you got out of there")
+else:
+     print("arenot you glad you got out of there")

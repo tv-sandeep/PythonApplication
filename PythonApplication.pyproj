@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>33a82916-45c5-4ac1-bc61-22d3661415cc</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Lists.py</StartupFile>
+    <StartupFile>lists2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -60,6 +60,9 @@
     </Compile>
     <Compile Include="interpolation.py" />
     <Compile Include="Lists.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="lists2.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="operators.py" />
